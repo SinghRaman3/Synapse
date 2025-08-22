@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Synapse
+  datasource:
+    url: jdbc:postgresql://localhost:5432/synapse
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
